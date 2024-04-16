@@ -1,0 +1,23 @@
+{{define "pages/home.html"}}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{.title}}</title>
+        <style>
+            * {}
+        </style>
+        <link rel="stylesheet" href="public/style.css" />
+    </head>
+    <body>
+        {{if .error}}
+        <div class="error">{{.error}}</div>
+        {{end}}
+        {{if .success}}
+        <div class="success">{{.success}}</div>
+        {{end}}
+        <h1>Home</h1>
+    </body>
+</html>
+{{end}}

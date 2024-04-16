@@ -1,0 +1,12 @@
+version: "0.1"
+
+services:
+    web:
+        image: web
+        container_name: "server"
+        ports:
+            - "8080:8080"
+        restart: always
+        environment:
+            - PORT=8080
+
