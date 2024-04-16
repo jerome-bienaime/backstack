@@ -22,8 +22,8 @@ jobs:
         go-version: '1.22.1'
     - run: go version
 
-    - name: Fill database
-      run: make re-test
+    # - name: Fill database
+    #   run: make re-test
 
     - name: Test
       run: ENV=TEST go test -tags fts5 -timeout 30s 
