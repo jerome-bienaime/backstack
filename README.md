@@ -2,6 +2,9 @@
 
 [Go][1] stack to start on.
 
+[![E2E](https://github.com/jerome-bienaime/backstack/actions/workflows/e2e.yml/badge.svg)](https://github.com/jerome-bienaime/backstack/actions/workflows/e2e.yml)
+[![Go](https://github.com/jerome-bienaime/backstack/actions/workflows/go.yml/badge.svg)](https://github.com/jerome-bienaime/backstack/actions/workflows/go.yml)
+
 ## Requirements
 
 + [Go][1] 1.22.1
